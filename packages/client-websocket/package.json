@@ -1,0 +1,27 @@
+{
+  "name": "xmpp2-client-websocket",
+  "version": "0.0.0",
+  "description": "XMPP WebSocket client for JavaScript",
+  "repository": "github:node-xmpp/node-xmpp",
+  "homepage": "http://github.com/node-xmpp/node-xmpp",
+  "bugs": "http://github.com/node-xmpp/node-xmpp/issues",
+  "keywords": [
+    "XMPP",
+    "client",
+    "WebSocket"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "preversion": "npm test"
+  },
+  "browser": {
+    "ws": false
+  },
+  "dependencies": {
+    "lodash.assign": "^4.0.9",
+    "node-xmpp-core": "^5.0.2",
+    "sasl-plain": "^0.1.0",
+    "saslmechanisms": "^0.1.1",
+    "ws": "^1.1.0"
+  }
+}
